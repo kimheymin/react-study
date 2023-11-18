@@ -1,10 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import RuseState from './components/RuseState';
+import RuseRefDom from './components/RuseRef/RuseRefDom';
+import RuseRefVsState from './components/RuseRef/RuseRefVsState';
+import RuseRefVsVar from './components/RuseRef/RuseRefVsVar';
+
 
 function App() {
   return (
-    <RuseState />
+    // <RuseState />
+    // <RuseEffect />
+    // <RuseRefVsState />
+    // <RuseRefVsVar />
+    <RuseRefDom />
   );
 }
 
