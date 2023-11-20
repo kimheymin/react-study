@@ -1,8 +1,12 @@
-import './App.css';
-import RuseRefDom from './components/RuseRef/RuseRefDom';
-import RuseRefVsState from './components/RuseRef/RuseRefVsState';
-import RuseRefVsVar from './components/RuseRef/RuseRefVsVar';
-
+import "./App.css";
+import RuseCallbackEx1 from "./components/RuseCallback/RuseCallbackEx1";
+import RuseCallbackEx2 from "./components/RuseCallback/RuseCallbackEx2";
+import RuseContext from "./components/RuseContext/RuseContext";
+import RuseMemoEx1 from "./components/RuseMemo/RuseMemoEx1";
+import RuseMemoEx2 from "./components/RuseMemo/RuseMemoEx2";
+import RuseRefDom from "./components/RuseRef/RuseRefDom";
+import RuseRefVsState from "./components/RuseRef/RuseRefVsState";
+import RuseRefVsVar from "./components/RuseRef/RuseRefVsVar";
 
 function App() {
   return (
@@ -10,7 +14,12 @@ function App() {
     // <RuseEffect />
     // <RuseRefVsState />
     // <RuseRefVsVar />
-    <RuseRefDom />
+    // <RuseRefDom />
+    // <RuseContext />
+    // <RuseMemoEx1 />
+    // <RuseMemoEx2 />
+    // <RuseCallbackEx1 />
+    <RuseCallbackEx2 />
   );
 }
 
